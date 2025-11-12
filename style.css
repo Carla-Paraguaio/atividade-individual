@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    background-color: #3b5998;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.topo .voltar {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.campo-metade {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-salvar {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.botao-salvar:hover {
+    background-color: #324b84;
+}
